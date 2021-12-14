@@ -19,12 +19,12 @@ $ cd Running-Form-Correction
 $ pip3 install -r requirements.txt
 ```
 
-### Demo
+### Pose Estimation Demo
 
 To see an example of the pose estimation overlayed on top of the original image, run the code below. 
 Note: Inference generation works best if only one person and their entire body is in frame.
 
-You will be able to choose from one of 3 (5) models:
+You can set model equal to one of the networks listed below:
 - cmu
 - dsconv
 - mobilenet
@@ -33,7 +33,10 @@ You will be able to choose from one of 3 (5) models:
 
 Make sure to set the imgpath to that of the input frame on your machine.
 
+### Form Correction
+
+Similar to the Pose Estimation Demo, set the intended model and image path:
 
 ```
-$ python3 inference.py --model=cmu --imgpath=...
+$ python3 form_correction.py --model=cmu --imgpath=...
 ```
