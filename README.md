@@ -33,6 +33,10 @@ You can set model equal to one of the networks listed below:
 
 Make sure to set the imgpath to that of the input frame on your machine.
 
+```
+$ python3 inference.py --model=cmu --imgpath=...
+```
+
 ## Form Correction
 
 Similar to the Pose Estimation Demo, set the intended model and image path:
