@@ -19,3 +19,11 @@ $ cd Running-Form-Correction
 $ pip3 install -r requirements.txt
 ```
 
+### Demo
+
+To see an example of the pose estimation overlayed on top of the original image, run the code below. 
+Note: Inference generation works best if only one person and their entire body is in frame.
+
+```
+$ python3 inference.py --model=cmu --imgpath=...
+```
