@@ -24,6 +24,15 @@ $ pip3 install -r requirements.txt
 To see an example of the pose estimation overlayed on top of the original image, run the code below. 
 Note: Inference generation works best if only one person and their entire body is in frame.
 
+You will be able to choose from one of 3 (5) models:
+- cmu
+- dsconv
+- mobilenet
+  - mobilenet_fast
+  - mobilenet_accurate
+
+Make sure to set the imgpath to that of the input frame on your machine.
+
 ```
 $ python3 inference.py --model=cmu --imgpath=...
 ```
