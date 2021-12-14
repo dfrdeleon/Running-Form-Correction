@@ -19,7 +19,7 @@ $ cd Running-Form-Correction
 $ pip3 install -r requirements.txt
 ```
 
-### Pose Estimation Demo
+## Pose Estimation Demo
 
 To see an example of the pose estimation overlayed on top of the original image, run the code below. 
 Note: Inference generation works best if only one person and their entire body is in frame.
@@ -33,7 +33,7 @@ You can set model equal to one of the networks listed below:
 
 Make sure to set the imgpath to that of the input frame on your machine.
 
-### Form Correction
+## Form Correction
 
 Similar to the Pose Estimation Demo, set the intended model and image path:
 
