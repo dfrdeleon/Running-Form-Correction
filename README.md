@@ -13,5 +13,9 @@ Note: it is encouraged that you utilize a venv through either pip or anaconda
 - python3-tk
 
 ### Install
-
+```bash
+$ git clone https://github.com/dfrdeleon/Running-Form-Correction
+$ cd Running-Form-Correction
+$ pip3 install -r requirements.txt
+```
 
