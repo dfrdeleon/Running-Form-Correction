@@ -33,6 +33,7 @@ You will be able to choose from one of 3 (5) models:
 
 Make sure to set the imgpath to that of the input frame on your machine.
 
+
 ```
 $ python3 inference.py --model=cmu --imgpath=...
 ```
